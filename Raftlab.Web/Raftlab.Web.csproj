@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Raftlab.GlobleService\Raftlab.GlobleService.csproj" />
+    <ProjectReference Include="..\Raftlab.ReqResPlugin\Raftlab.ReqResPlugin.csproj" />
+    <ProjectReference Include="..\Raftlab.Service\Raftlab.Service.csproj" />
+  </ItemGroup>
+
+</Project>

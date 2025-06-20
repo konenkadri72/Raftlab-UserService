@@ -48,7 +48,7 @@ RaftLabDemo/
 1. **Clone the repo and navigate into it**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/konenkadri72/Raftlab-UserService.git
 cd Raftlab.Web
 ```
 
